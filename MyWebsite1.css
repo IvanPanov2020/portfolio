@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#mainhaeder {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+#mainhaeder p {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+#navbar {
+  background-color: tomato;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  height: 10px;
+}
+#list {
+  list-style: none;
+  display: inline;
+}
+#navbar li {
+  display: inline;
+  font-size: 18px;
+  padding-right: 15px;
+}
+#showcase {
+  background-image: url(img/EuropeanCities.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 150px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#showcase h2 {
+  padding-top: 40px;
+  font-size: 30px;
+}
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+}
+
+#sidebar {
+  background-color: rgb(40, 202, 67);
+  color: black;
+  box-sizing: border-box;
+  float: left;
+}
+#sidebar h2 {
+  text-align: center;
+}
+#sidebar li {
+  list-style: none;
+}
+#footer {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  margin-top: 300px;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  #main {
+    width: 100%;
+    float: none;
+  }
+  #sidebar {
+    width: 100%;
+    float: none;
+  }
+}
