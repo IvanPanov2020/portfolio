@@ -1,0 +1,101 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e9ebee;
+}
+#headerform {
+  background-color: #3b5998;
+  color: white;
+}
+#headerform a:link {
+  text-decoration: none;
+  color: white;
+}
+#headerform a:visited {
+  text-decoration: none;
+  color: white;
+}
+#headerform a:hover {
+  text-decoration: underline;
+  color: white;
+}
+#headerform a:active {
+  text-decoration: underline;
+  color: white;
+}
+#headerform a {
+  padding-right: 84px;
+
+  font-size: x-small;
+}
+#headerform h1 {
+  float: left;
+  padding-left: 200px;
+  font-size: 35px;
+}
+
+#names {
+  list-style: none;
+  text-align: right;
+  padding-right: 295px;
+}
+#names li {
+  display: inline;
+  padding-left: 75px;
+}
+#fild {
+  list-style: none;
+  text-align: right;
+  padding-right: 175px;
+}
+#fild li {
+  display: inline;
+  padding-right: 30px;
+}
+
+#main {
+  float: left;
+  padding-left: 200px;
+}
+
+#sidebar {
+  padding-right: 250px;
+  float: right;
+}
+#sidebar input[type="number , text"] {
+  width: 98%;
+}
+#sidebar p {
+  font-size: x-small;
+}
+#sidebar ul {
+  list-style: none;
+  padding-left: 00px;
+}
+
+#FBfooter li {
+  list-style: none;
+  display: inline;
+}
+#FBfooter a {
+  text-decoration: none;
+}
+#FBfooter {
+  text-align: center;
+  padding-right: 100px;
+  font-size: x-small;
+  padding-top: 600px;
+}
+@media (max-width: 600px) {
+  #main {
+    width: 100%;
+    float: none;
+  }
+  #sidebar {
+    width: 100%;
+    float: none;
+  }
+  #headerform {
+    width: 100%;
+    float: none;
+  }
+}
